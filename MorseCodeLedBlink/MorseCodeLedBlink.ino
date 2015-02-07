@@ -167,6 +167,76 @@ void loop() {
       shortBlink();
       shortBlink();
       break;
+      // Numbers
+    case 48:
+      longBlink();
+      longBlink();
+      longBlink();
+      longBlink();
+      longBlink();
+      break;
+    case 49:
+      shortBlink();
+      longBlink();
+      longBlink();
+      longBlink();
+      longBlink();
+      break;
+    case 50:
+      shortBlink();
+      shortBlink();
+      longBlink();
+      longBlink();
+      longBlink();
+      break;
+    case 51:
+      shortBlink();
+      shortBlink();
+      shortBlink();
+      longBlink();
+      longBlink();
+      break;
+    case 52:
+      shortBlink();
+      shortBlink();
+      shortBlink();
+      shortBlink();
+      longBlink();
+    case 53:
+      shortBlink();
+      shortBlink();
+      shortBlink();
+      shortBlink();
+      shortBlink();
+      break;
+    case 54:
+      longBlink();
+      shortBlink();
+      shortBlink();
+      shortBlink();
+      shortBlink();
+      break;
+    case 55:
+      longBlink();
+      longBlink();
+      shortBlink();
+      shortBlink();
+      shortBlink();
+      break;
+    case 56:
+      longBlink();
+      longBlink();
+      longBlink();
+      shortBlink();
+      shortBlink();
+      break;
+    case 57:
+      longBlink();
+      longBlink();
+      longBlink();
+      longBlink();
+      shortBlink();
+      break;
     default:
       Serial.print("Error");
       Serial.println(character);
@@ -175,6 +245,7 @@ void loop() {
     //blip();
   }
 }
+
 
 
 
