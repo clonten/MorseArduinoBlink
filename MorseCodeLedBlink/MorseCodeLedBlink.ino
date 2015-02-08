@@ -232,6 +232,7 @@ void loop() {
       break;
     case 32:
       delay(700);
+      break;
     default:
       Serial.print("Error");
       Serial.println(character);
