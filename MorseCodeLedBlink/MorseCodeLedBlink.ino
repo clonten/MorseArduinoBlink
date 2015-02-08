@@ -1,22 +1,15 @@
 void shortBlink() {
   digitalWrite(13, HIGH);
-  delay(300);
+  delay(200);
   digitalWrite(13, LOW);
-  delay(300);
+  delay(200);
 }
 
 void longBlink() {
   digitalWrite(13, HIGH);
-  delay(900);
+  delay(600);
   digitalWrite(13, LOW);
-  delay(300);
-}
-
-void blip() {
-  digitalWrite(13, HIGH);
-  delay(25);
-  digitalWrite(13, LOW);
-  delay(500);
+  delay(600);
 }
 
 void setup() {
@@ -237,20 +230,13 @@ void loop() {
       longBlink();
       shortBlink();
       break;
+    case 32:
+      delay(700);
     default:
       Serial.print("Error");
       Serial.println(character);
     }
-    delay(900); 
-    //blip();
+    delay(600); 
   }
 }
-
-
-
-
-
-
-
-
 
